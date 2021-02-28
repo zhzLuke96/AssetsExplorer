@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+html {
+  box-sizing: border-box;
+}
+*:not(input) {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+*[hide] {
+  display: none;
+}
+*[disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+// ====================== REST ======================
+
+body,
+.root {
+  width: 100vw;
+  height: 100vh;
+}
